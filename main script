@@ -1,0 +1,319 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local SideFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton1 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local background = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Frame1 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local Frame2 = Instance.new("Frame")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local Frame3 = Instance.new("Frame")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local Frame4 = Instance.new("Frame")
+local TextBox_4 = Instance.new("TextBox")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.Position = UDim2.new(0.924423397, 0, 0.839228272, 0)
+ImageButton.Size = UDim2.new(0, 100, 0, 100)
+ImageButton.Image = "rbxassetid://10481997843"
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = ImageButton
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(27, 53, 24)
+MainFrame.Position = UDim2.new(0.252639532, 0, 0.284565896, 0)
+MainFrame.Size = UDim2.new(0, 554, 0, 354)
+
+UICorner_2.CornerRadius = UDim.new(0, 20)
+UICorner_2.Parent = MainFrame
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = MainFrame
+SideFrame.BackgroundColor3 = Color3.fromRGB(49, 95, 43)
+SideFrame.Position = UDim2.new(-0.0017995456, 0, -0.089832373, 0)
+SideFrame.Size = UDim2.new(0, 147, 0, 385)
+
+UICorner_3.CornerRadius = UDim.new(0, 20)
+UICorner_3.Parent = SideFrame
+
+TextButton1.Name = "TextButton1"
+TextButton1.Parent = SideFrame
+TextButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton1.Position = UDim2.new(0.0816326588, 0, 0.210389614, 0)
+TextButton1.Size = UDim2.new(0, 122, 0, 50)
+TextButton1.Font = Enum.Font.Ubuntu
+TextButton1.Text = "page 1"
+TextButton1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton1.TextScaled = true
+TextButton1.TextSize = 14.000
+TextButton1.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = TextButton1
+
+TextButton2.Name = "TextButton2"
+TextButton2.Parent = SideFrame
+TextButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton2.Position = UDim2.new(0.0816326588, 0, 0.374025971, 0)
+TextButton2.Size = UDim2.new(0, 122, 0, 50)
+TextButton2.Font = Enum.Font.Ubuntu
+TextButton2.Text = "page 2"
+TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.TextScaled = true
+TextButton2.TextSize = 14.000
+TextButton2.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = TextButton2
+
+TextButton3.Name = "TextButton3"
+TextButton3.Parent = SideFrame
+TextButton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton3.Position = UDim2.new(0.0816326588, 0, 0.540259719, 0)
+TextButton3.Size = UDim2.new(0, 122, 0, 50)
+TextButton3.Font = Enum.Font.Ubuntu
+TextButton3.Text = "page 3"
+TextButton3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton3.TextScaled = true
+TextButton3.TextSize = 14.000
+TextButton3.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = TextButton3
+
+TextButton4.Name = "TextButton4"
+TextButton4.Parent = SideFrame
+TextButton4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton4.Position = UDim2.new(0.0816326588, 0, 0.701298714, 0)
+TextButton4.Size = UDim2.new(0, 122, 0, 50)
+TextButton4.Font = Enum.Font.Ubuntu
+TextButton4.Text = "page 4"
+TextButton4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton4.TextScaled = true
+TextButton4.TextSize = 14.000
+TextButton4.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = TextButton4
+
+background.Name = "background"
+background.Parent = SideFrame
+background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+background.Position = UDim2.new(0.0816326588, 0, 0.0467532575, 0)
+background.Size = UDim2.new(0, 122, 0, 50)
+background.Font = Enum.Font.Ubuntu
+background.Text = "toggle page background"
+background.TextColor3 = Color3.fromRGB(0, 0, 0)
+background.TextScaled = true
+background.TextSize = 14.000
+background.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = background
+
+Frame1.Name = "Frame1"
+Frame1.Parent = MainFrame
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.BackgroundTransparency = 1.000
+Frame1.Position = UDim2.new(0.285198569, 0, 0.0310734455, 0)
+Frame1.Size = UDim2.new(0, 380, 0, 325)
+
+TextBox.Parent = Frame1
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Size = UDim2.new(0, 379, 0, 328)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextBox.TextSize = 30.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = TextBox
+
+Frame2.Name = "Frame2"
+Frame2.Parent = MainFrame
+Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame2.BackgroundTransparency = 1.000
+Frame2.Position = UDim2.new(0.285198569, 0, 0.0310734455, 0)
+Frame2.Size = UDim2.new(0, 380, 0, 325)
+Frame2.Visible = false
+
+TextBox_2.Parent = Frame2
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.BackgroundTransparency = 1.000
+TextBox_2.Size = UDim2.new(0, 379, 0, 328)
+TextBox_2.ClearTextOnFocus = false
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.MultiLine = true
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextBox_2.TextSize = 30.000
+TextBox_2.TextWrapped = true
+TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = TextBox_2
+
+Frame3.Name = "Frame3"
+Frame3.Parent = MainFrame
+Frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame3.BackgroundTransparency = 1.000
+Frame3.Position = UDim2.new(0.285198569, 0, 0.0310734455, 0)
+Frame3.Size = UDim2.new(0, 380, 0, 325)
+Frame3.Visible = false
+
+TextBox_3.Parent = Frame3
+TextBox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.BackgroundTransparency = 1.000
+TextBox_3.Size = UDim2.new(0, 379, 0, 328)
+TextBox_3.ClearTextOnFocus = false
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.MultiLine = true
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextBox_3.TextSize = 30.000
+TextBox_3.TextWrapped = true
+TextBox_3.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_3.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_11.CornerRadius = UDim.new(0, 10)
+UICorner_11.Parent = TextBox_3
+
+Frame4.Name = "Frame4"
+Frame4.Parent = MainFrame
+Frame4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame4.BackgroundTransparency = 1.000
+Frame4.Position = UDim2.new(0.285198569, 0, 0.0310734455, 0)
+Frame4.Size = UDim2.new(0, 380, 0, 325)
+Frame4.Visible = false
+
+TextBox_4.Parent = Frame4
+TextBox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.BackgroundTransparency = 1.000
+TextBox_4.Size = UDim2.new(0, 379, 0, 328)
+TextBox_4.ClearTextOnFocus = false
+TextBox_4.Font = Enum.Font.SourceSans
+TextBox_4.MultiLine = true
+TextBox_4.Text = ""
+TextBox_4.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextBox_4.TextSize = 30.000
+TextBox_4.TextWrapped = true
+TextBox_4.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_4.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_12.CornerRadius = UDim.new(0, 10)
+UICorner_12.Parent = TextBox_4
+
+-- Scripts:
+
+local function XBLWYJ_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = not script.Parent.Parent.MainFrame.Visible
+	end)
+	
+end
+coroutine.wrap(XBLWYJ_fake_script)()
+local function QSJJBOK_fake_script() -- TextButton1.LocalScript 
+	local script = Instance.new('LocalScript', TextButton1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame1.Visible = true
+		script.Parent.Parent.Parent.Frame2.Visible = false
+		script.Parent.Parent.Parent.Frame3.Visible = false
+		script.Parent.Parent.Parent.Frame4.Visible = false
+	end)
+	
+end
+coroutine.wrap(QSJJBOK_fake_script)()
+local function TRTD_fake_script() -- TextButton2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame1.Visible = false
+		script.Parent.Parent.Parent.Frame2.Visible = true
+		script.Parent.Parent.Parent.Frame3.Visible = false
+		script.Parent.Parent.Parent.Frame4.Visible = false
+	end)
+	
+end
+coroutine.wrap(TRTD_fake_script)()
+local function ANOXR_fake_script() -- TextButton3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame1.Visible = false
+		script.Parent.Parent.Parent.Frame2.Visible = false
+		script.Parent.Parent.Parent.Frame3.Visible = true
+		script.Parent.Parent.Parent.Frame4.Visible = false
+	end)
+	
+end
+coroutine.wrap(ANOXR_fake_script)()
+local function DBJZTE_fake_script() -- TextButton4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame1.Visible = false
+		script.Parent.Parent.Parent.Frame2.Visible = false
+		script.Parent.Parent.Parent.Frame3.Visible = false
+		script.Parent.Parent.Parent.Frame4.Visible = true
+	end)
+	
+end
+coroutine.wrap(DBJZTE_fake_script)()
+local function DLOXW_fake_script() -- background.LocalScript 
+	local script = Instance.new('LocalScript', background)
+
+	local a = false
+	script.Parent.MouseButton1Click:Connect(function()
+		if a == true then
+			script.Parent.Parent.Parent.Frame1.TextBox.BackgroundTransparency = 0
+			script.Parent.Parent.Parent.Frame2.TextBox.BackgroundTransparency = 0
+			script.Parent.Parent.Parent.Frame3.TextBox.BackgroundTransparency = 0
+			script.Parent.Parent.Parent.Frame4.TextBox.BackgroundTransparency = 0
+			a = false
+		else
+			script.Parent.Parent.Parent.Frame1.TextBox.BackgroundTransparency = 1
+			script.Parent.Parent.Parent.Frame2.TextBox.BackgroundTransparency = 1
+			script.Parent.Parent.Parent.Frame3.TextBox.BackgroundTransparency = 1
+			script.Parent.Parent.Parent.Frame4.TextBox.BackgroundTransparency = 1
+			a = true
+		end
+	end)
+	
+end
+coroutine.wrap(DLOXW_fake_script)()
